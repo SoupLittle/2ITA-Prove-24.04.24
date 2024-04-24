@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400|Open+Sans:700);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.header img {
+    width: 100px; 
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 2px solid #772F1A;
+    margin-bottom: 20px;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    background-color: #F58549;
+    margin: 0;
+}
+
+h2{
+    color: #EEC170;
+    font-size: x-large;
+}
+
+
+h1 {
+    transform: matrix(1, -0.20, 0, 1, 0, 0);
+    -ms-transform: matrix(1, -0.20, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, -0.20, 0, 1, 0, 0);
+  }
+
+  
+h1 {
+    font-family: "Open Sans", Sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;  
+    position: relative;
+    color: #F2A65A;
+    text-align: center;
+    text-shadow: 2px 2px 5px #cc4700;
+  }
+ 
+
+p {
+    font-size: 2rem;
+    color: #772F1A;
+    font-family: "Indie Flower", cursive;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.butn {
+    background: #772F1A;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #4d1e11;
+    text-decoration: none;
+}
